@@ -1,6 +1,6 @@
 <? php
 
-$conexion =new mysqli('localhost','id17178686_luis77','F)pq9/XJkxQBazxH','id17178686_smm');
+$conexion =new mysqli('localhost','root','','smm');
   mysql_select_db ("comentarios", $ conexion);
   
   mysql_query ("ESTABLECER NOMBRES 'utf8'");

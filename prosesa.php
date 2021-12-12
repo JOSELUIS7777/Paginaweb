@@ -8,7 +8,7 @@ $mensaje = $_POST['mensaje'];
 
 
 
-$conexion =new mysqli('localhost','id17178686_luis77','F)pq9/XJkxQBazxH','id17178686_smm');
+$conexion =new mysqli('localhost','root','','smm');
 
 if($conexion->connect_error){
 die("error de conexion".$conexion->connect_error);
