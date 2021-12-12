@@ -1,7 +1,8 @@
 <? php
 
-$conexion =new mysqli('localhost','root','','smm');
-  mysql_select_db ("comentarios", $ conexion);
+  $conexion =new mysqli('localhost','root','','farmacia');
+ 
+   mysql_select_db ("comentarios", $ conexion);
   
   mysql_query ("ESTABLECER NOMBRES 'utf8'");
   
