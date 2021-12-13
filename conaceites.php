@@ -1,6 +1,6 @@
 <?php 
 
-$conexion =new mysqli('localhost','id17178686_luis77','F)pq9/XJkxQBazxH','id17178686_smm');
+$conexion =new mysqli('localhost','root','','smm');
 
 
  ?>
@@ -26,7 +26,7 @@ $conexion =new mysqli('localhost','id17178686_luis77','F)pq9/XJkxQBazxH','id1717
 		</tr></center>
 
 		<?php 
-		$sql="SELECT * from Productos";
+		$sql="SELECT * from productos";
 		$result=mysqli_query($conexion,$sql);
 
 		while($mostrar=mysqli_fetch_array($result)){
@@ -34,7 +34,7 @@ $conexion =new mysqli('localhost','id17178686_luis77','F)pq9/XJkxQBazxH','id1717
 
 		<tr>
 			
-			<td><?php echo $mostrar['id_producto'] ?></td>
+			<td><?php echo $mostrar['id'] ?></td>
 			<td><?php echo $mostrar['nombre'] ?></td>
 			<td><?php echo $mostrar['precio'] ?></td>
 			<td><?php echo $mostrar['existentes'] ?></td>

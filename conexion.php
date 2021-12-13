@@ -1,6 +1,6 @@
 <? php
 
-  $conexion =new mysqli('localhost','root','','farmacia');
+$ conexion =new mysqli('localhost','root','','smm');
  
    mysql_select_db ("comentarios", $ conexion);
   
